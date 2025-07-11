@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RECIPIE APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body data-theme="light">
+    <nav class="navbar">
+      <span class="navbar-title">Know Your Taste</span>
+      <div class="navbar-icons">
+        <button
+          class="cart-btn"
+          id="show-favorites"
+          aria-label="Show favorites"
+          title="Show favorites"
+        >
+          <img src="recipie.png" alt="Favorite" width="32" height="32" />
+
+          <span id="fav-count" class="cart-count">0</span>
+        </button>
+        <button
+          id="theme-toggle"
+          aria-label="Toggle dark mode"
+          title="Toggle dark mode"
+        >
+          <img src="light.png" alt="" width="32" height="32" />
+        </button>
+      </div>
+    </nav>
+    <div class="intro-img">
+      <img src="rem.png" alt="" width="559px" height="447px" />
+    </div>
+    <div class="container">
+      <h1>GET READY TO TASTE</h1>
+
+      <div
+        id="category-bar"
+        class="category-bar"
+        role="tablist"
+        aria-label="Recipe categories"
+      ></div>
+      <form class="search-bar" id="searchForm" autocomplete="off" role="search">
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Search for recipes..."
+          aria-label="Search recipes"
+        />
+        <button type="submit" aria-label="Search recipes">Search</button>
+      </form>
+      <div id="cards" class="grid" aria-live="polite" aria-busy="false"></div>
+    </div>
+    <div id="modal-root" aria-hidden="true"></div>
+    <div id="fav-modal-root" aria-hidden="true"></div>
+    <footer class="footer">
+      <div class="footer-bottom">
+        <p>Designed with ❤️ by <span class="imp">©AADYA</span></p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
