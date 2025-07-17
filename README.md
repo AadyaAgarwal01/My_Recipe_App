@@ -1,6 +1,6 @@
 # 🌍 KNOW YOUR TASTE
 
-[![Live on Vercel](https://img.shields.io/badge/Live%20Demo-Vercel-blue?logo=vercel)](https://mydishes.vercel.app)
+[![Live on Vercel][(https://img.shields.io/badge/Live%20Demo-Vercel-blue?logo=vercel)](https://mydishes.vercel.app)](https://recipe-app-blue-zeta.vercel.app/)
 
 **KNOW YOUR TASTE** is a modern recipe web app that invites you to explore global flavors from the comfort of your kitchen. Whether you're craving Italian pasta, Japanese ramen, or Moroccan couscous — this app brings the world to your plate.
 
